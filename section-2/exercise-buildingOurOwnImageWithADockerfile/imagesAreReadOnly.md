@@ -1,0 +1,9 @@
+# Changing code...
+- If we change code, e.g. the header my course goal...
+- Then stop the container and re-run the previously built container...
+- The change is not picked up
+
+- Need to build a new image for the code change to be picked up
+- Images are 'locked' snapshots of code once built. They cannot be edited.
+- READ ONLY.
+- Need to rebuild the image to get the new updated code/image.

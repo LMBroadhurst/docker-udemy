@@ -34,4 +34,13 @@ docker attach <'docker-container-name'>
 
 # Attached simply means the terminal is connected to the container and will print logs from node etc
 # If not attached, the container port will still be exposed, can still vist the website, etc
+
+docker logs <'docker-container-name'>
+# When not attached we can use this to display previous logs
+
+docker logs -f <'docker-container-name'>
+# Shows logs and then attaches to show any further logs
+
+docker start -a <'docker-container-name'>
+# Start container in attached mode
 ```
